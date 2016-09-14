@@ -1,7 +1,7 @@
 
 integration:
   image: mongo:3.0.5
-  command: mongod --smallfiles
+  command: mongod --smallfiles 
 
 build:
   dockerfile_name: Dockerfile
